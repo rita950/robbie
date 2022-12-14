@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1f2039;
+  }
+  
+  a {
+    color: #242424;
+    text-decoration: none;
+  }
+  
+  em {
+    color: #a5b4fc;
+    font-style: normal;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h2 {
+    color: #f9f8ff;
+  }
+  
+  p,
+  li {
+    font-size: 1.1em;
+    color: #f9f8ff;
+  }
+  
+  header,
+  footer {
+    background-color: white;
+    padding: 20px 50px;
+  }
+  
+  .cta {
+    display: inline-block;
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    border-radius: 50px;
+    padding: 20px 30px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .cta:hover {
+    background: linear-gradient(#696484, #8788ba);
+    text-decoration: none;
+  }
+  
+  .lien-icone {
+    margin-left: 30px;
+  }
+  
+  .lien-icone:hover {
+    opacity: 0.5;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer,
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    margin-left: 30px;
+  }
+
+
+
+h2,ul{
+    padding-top: 10px;
+}
+
+.a-propos{
+    margin: auto;
+    width: 50%;
+}
+
+  
+.titre{
+    color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+    
+}
+
+main{
+    flex-wrap: wrap;
+}
+
+.paysage img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.portrait img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.portfolio-section-photos{
+    background-color: white;
+    padding: 10px;
+}
+
+.in{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: black;
+}
+.portrait{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+    
+    
+}
+.paysage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+}
+.paysage :hover{
+    opacity: 70% ;
+
+}
+.portrait :hover{
+    opacity: 70%;
+    
+}
+.lien-conteneur-photo {
+    position: relative;
+  }
+  
+  .photo-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: black;
+    display: none;
+  }
+  
+  .lien-conteneur-photo:hover .photo-hover {
+    display: flex;
+  }
+  
